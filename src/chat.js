@@ -2,20 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './chat.css';
 
-const Scroller = () => {
-  const [scrollWidth, setScrollWidth] = useState(0);
-
-  useEffect(() => {
-    // Get the width of the scrollbar.
-    scrollWidth = document.documentElement.scrollWidth;
-  }, []);
-
-  return (
-    <div id="scroller" style={{ width: scrollWidth + "px" }}>
-      This is the scroller.
-    </div>
-  );
-};
 
 const Chat = () => {
   const [chats, setChats] = useState([]);
@@ -40,10 +26,7 @@ const Chat = () => {
     }
   };
 
-  const getFormattedTime = (timeString) => {
-    const date = new Date(timeString);
-    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-  };
+
 
   return (
     <div className="chat-container">

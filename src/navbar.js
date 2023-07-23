@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faEdit, faUsers, faShareAlt, faExclamationTriangle, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faEdit, faUsers, faShareAlt, faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [name, setName] = useState('');

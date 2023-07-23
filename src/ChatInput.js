@@ -5,7 +5,7 @@ import { faPaperclip, faCamera, faVideo, faFileAlt, faPaperPlane } from '@fortaw
 
 const ChatInput = () => {
   const [message, setMessage] = useState('');
-  const [showAttachmentOptions, setShowAttachmentOptions] = useState(false);
+  const [showAttachmentOptions] = useState(false);
 
   const handleChange = (event) => {
     setMessage(event.target.value);
