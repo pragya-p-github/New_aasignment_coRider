@@ -1,0 +1,136 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: table;
+    width: 100%;
+    background-color: #E5E5E0;
+    color: #000000;
+    padding: 10px;
+    z-index: 100;
+    box-shadow: 1px 1px #888888;
+  }
+  
+  .form {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .navbar-content {
+    display:table-row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-icon{
+    border: 0;
+    background-color: #E5E5E0;
+    margin-left: 1400px;
+  }
+  
+  .navbar-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .navbar-from-to {
+    font-size: 14px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu {
+    display:table-cell;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .navbar-menu-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  #form_tx{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #5a5a51;
+  }
+   #from{
+    font-size: 20px;
+    color: #000000;
+   }
+  
+   #to{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #5a5a51;
+  }
+   #to_tx{
+    font-size: 20px;
+    color: #000000;
+   }
+  
+  .dot {
+    width: 4px;
+    height: 4px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 2px; /* Add some spacing between the dots */
+  }
+  
+  .dot.active {
+    background-color: #000000;
+  }
+  
+  .menu-dropdown {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #965656;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    z-index: 1;
+  }
+  
+  .menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  /* ... Other styles ... */
+  
+  
+  /* ... Rest of the CSS ... */
+  
+  .sender-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .sender-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Preserve aspect ratio without stretching */
+  }
+  
+  /* ... Rest of the CSS ... */
+  
